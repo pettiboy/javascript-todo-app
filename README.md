@@ -8,6 +8,8 @@ We will build a TODO app using [`JavaScript`](https://developer.mozilla.org/en-U
     <img src="./assets/screenshot.png" width="250"/>
 </p>
 
+Try out the app [`here`](https://pettiboy.github.io/javascript-todo-app/).
+
 ## We will follow the following steps:
 
 ### Building the `User Interface (UI)` with `Bootstrap`
