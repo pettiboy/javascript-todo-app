@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags  -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <title>TODO App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
+        <div class="col p-4">
+          <!-- todo form -->
+          <form id="todo-form">
+            <!-- input field -->
+            <input
+              id="todo-text"
+              class="form-control form-control-lg"
+              type="text"
+              placeholder="Your TODO.."
+              required
+            />
+
+            <!-- submit button -->
+            <input type="submit" class="btn btn-primary my-3 w-100" />
+          </form>
+        </div>
+        <div class="col p-4">
+          <!-- placeholder for unordered list -->
+          <ul id="todo-list" class="list-unstyled"></ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- custom JS -->
+    <script src="./script.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+# for macOS
+.DS_Store/
+
+# developer's notes
+dev.md
+todo.md
